@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Oyun Kütüphanem - Oyunlog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-sol">
+    <h1>Oyunlog</h1>
+    <a href="index.html">Ana Sayfa</a>
+    <a href="game.html">Oyunlar</a>
+    <a href="liste.html">Listem</a>
+  </div>
+
+  <div class="header-orta">
+    <form action="#" method="GET" class="arama-formu">
+      <input type="text" placeholder="Oyun ara..." name="q" class="arama-input">
+      <button type="submit" class="arama-btn">Ara</button>
+    </form>
+  </div>
+
+  <div class="header-sag">
+    <a href="#" class="btn-giris">Giriş Yap</a>
+    <a href="#" class="btn-kayit">Hesap Oluştur</a>
+  </div>
+</header>
+
+
+<div class="icerik">
+  <h2>Oyun Kütüphanem</h2>
+
+  <div class="filtre-bar">
+  
+  <div class="kategori-tablar">
+    <button class="tab-btn aktif">Tümü (4)</button>
+    <button class="tab-btn">Oynanıyor (1)</button>
+    <button class="tab-btn">Tamamlandı (2)</button>
+    <button class="tab-btn">Planlanıyor (1)</button>
+  </div>
+
+  <div class="siralama-kutusu">
+    <label for="siralama">Sırala:</label>
+    <select id="siralama" class="sirala-select">
+      <option value="puan-yuksek">Puan (En Yüksek)</option>
+      <option value="puan-dusuk">Puan (En Düşük)</option>
+      <option value="isim-az">İsim (A - Z)</option>
+      <option value="isim-za">İsim (Z - A)</option>
+      <option value="durum">Duruma Göre</option>
+    </select>
+  </div>
+
+</div>
+  
+
+  <div class="kutuphane-izgara">
+    
+    <div class="oyun">
+      <img src="img/rdr2.jpg" alt="Red Dead Redemption 2">
+      <h3><a href="rdr2.html">Red Dead Redemption 2</a></h3>
+      <span class="durum-etiket tamamlandi">Tamamlandı</span>
+      <p>Verilen Puan: ★ 5/5</p>
+    </div>
+
+    <div class="oyun">
+      <img src="img/elden-ring.jpg" alt="Elden Ring">
+      <h3><a href="elden-ring.html">Elden Ring</a></h3>
+      <span class="durum-etiket oynaniyor">Oynanıyor</span>
+      <p>Verilen Puan: ★ 4.5/5</p>
+    </div>
+
+    <div class="oyun">
+      <img src="img/cyberpunk2077.jpg" alt="Cyberpunk 2077">
+      <h3><a href="cyberpunk2077.html">Cyberpunk 2077</a></h3>
+      <span class="durum-etiket tamamlandi">Tamamlandı</span>
+      <p>Verilen Puan: ★ 4.0/5</p>
+    </div>
+
+    <div class="oyun">
+      <img src="img/gta6.jpg" alt="Grand Theft Auto VI">
+      <h3><a href="game.html">Grand Theft Auto VI</a></h3>
+      <span class="durum-etiket planlaniyor">Planlanıyor</span>
+      <p>Verilen Puan: --</p>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  Oyunlog
+</footer>
+
+</body>
+</html>
