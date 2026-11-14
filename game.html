@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Elden Ring - Oyunlog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-sol">
+    <h1>Oyunlog</h1>
+    <a href="index.html">Ana Sayfa</a>
+    <a href="game.html">Oyunlar</a>
+    <a href="liste.html">Listem</a>
+    <a href="profil.html">Profil</a>
+  </div>
+
+  <div class="header-orta">
+    <form action="#" method="GET" class="arama-formu">
+      <input type="text" placeholder="Oyun ara..." name="q" class="arama-input">
+      <button type="submit" class="arama-btn">Ara</button>
+    </form>
+  </div>
+
+  <div class="header-sag">
+    <a href="#" class="btn-giris">Giriş Yap</a>
+    <a href="#" class="btn-kayit">Hesap Oluştur</a>
+  </div>
+</header>
+
+<div class="icerik">
+  
+  <div class="oyun-detay-kapsayici">
+    <div class="detay-sol">
+      <img src="img/elden-ring.jpg" alt="Elden Ring" class="detay-kapak">
+      
+      <div class="kullanici-aksiyonlari">
+        <label for="durum-sec">Kütüphane Durumu:</label>
+        <select id="durum-sec" class="sirala-select">
+          <option value="oynandi">Tamamlandı</option>
+          <option value="oynaniyor" selected>Oynanıyor</option>
+          <option value="planlaniyor">Planlanıyor</option>
+        </select>
+
+        <div class="puanlama-kutusu">
+          <label>Puan Ver:</label>
+          <select class="sirala-select">
+            <option value="5">★ 5 - Mükemmel</option>
+            <option value="4">★ 4 - Çok İyi</option>
+            <option value="3">★ 3 - Ortalama</option>
+            <option value="2">★ 2 - Kötü</option>
+            <option value="1">★ 1 - Çok Kötü</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="detay-sag">
+      <h1>Elden Ring</h1>
+      <p class="oyun-meta"><strong>Çıkış Yılı:</strong> 2022 | <strong>Geliştirici:</strong> FromSoftware | <strong>Tür:</strong> Action RPG</p>
+      
+      <div class="genel-puan-rozeti">
+        <span>Genel Puan: <strong>4.5 / 5</strong></span>
+      </div>
+
+      <h3>Oyun Hakkında</h3>
+      <p class="oyun-aciklama">
+        Elden Ring, FromSoftware tarafından geliştirilen ve Bandai Namco Entertainment tarafından yayınlanan bir aksiyon rol yapma oyunudur. Oyun dünyası George R. R. Martin katkılarıyla tasarlanmış olup geniş bir açık dünya sunar.
+      </p>
+
+      <h3>Kullanıcı Yorumları</h3>
+      <div class="yorum-kutusu">
+        <div class="yorum">
+          <strong>Ahmet:</strong> "Bu oyunu seviyorum!"
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  Oyunlog
+</footer>
+
+</body>
+</html>
